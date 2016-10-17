@@ -1,0 +1,108 @@
+
+body {margin:0;}
+
+.logo {float: left;}
+.banner {position: absolute; z-index: -1; top: 0; width: 100%; height: 17em;}
+
+
+#title {text-align: center; color: #4A000F; font-size: 4em; padding-bottom: 0;}
+
+#body {width: 100%; background-image: url("images/background.jpg");
+		 background-repeat: no-repeat; background-size: cover; padding: 0; margin: 0;}
+
+ul,li { list-style-type: none;
+        list-style-position:inside;
+        margin:0 auto;
+        padding:0; }
+
+nav { background: rgba(3,3,180,0.55); text-align: center; width: 60%; margin: 0 auto 1em ; auto; padding: 1em;}
+.nav-link {display: inline-block; padding: 0 1em; font-size: 1.5em;}
+.nav-link a {color: red;}
+.nav-link a:hover {color: lime;}
+
+content {
+			display: block;
+			text-align: center;
+			background-color: hsla(0, 0%, 20%, 0.77);
+			color: #D36464;
+			min-width: 53%;
+			max-width: 70%;
+			margin: 0 auto;
+			margin-bottom: 2em;
+		}
+
+.form1 {display: inline-block; vertical-align: top; }
+input {display: block; margin: 0 auto;}
+.button {display: block; vertical-align: top; margin: 1% auto;  }
+div.button {background: blue; padding: 0.5em; max-width: 8em;}
+content.form {max-width: 30%;min-width: 20em;padding: 2em;}
+#form-create {display: none;}
+#form2 {margin-bottom: 1em; display: none; max-width: 30em;}
+
+
+
+h2 {margin: 0; color: red;}
+content div {padding: 2em; margin-top: 0}
+
+#camps {padding: 2em 0;margin: 0 auto;max-height: 100em;overflow: scroll;min-width: 30%;max-width: 40%;}
+		#camp-ul {margin: 0 auto; width: 100%;}
+		.camp-list {
+					display: inline-block;
+					vertical-align: top;
+					margin: 0.3em auto;
+					padding-bottom: 0.6em;
+					font-size: 2em;
+					background: hsla(239, 100%, 33%, 0.78);
+					border: solid #9E6C6C 2px;
+					min-width: 5em;
+					max-width: 7em;
+					max-height: 9em;
+					}
+		.camp-name {margin-bottom: 0em;}
+		.camp-info {display: block; margin: 0; padding-bottom: 0em; font-size: 0.5em;}
+		.activity {margin-bottom: 1em;}
+h4 {margin: 0.7em; }
+h5 {margin: 0;}
+
+#items {
+		margin: 0 auto;
+		max-height: 100em;
+		overflow: scroll;
+		max-width: 40%;
+		min-width: 30%;
+		max-height: 100em;
+		margin-bottom: 3em;
+		}
+
+		#items-ul {margin: 0 auto; padding-top: 4em}
+		.item-list {
+					display: inline-block;
+					vertical-align: top;
+					margin: 0.3em auto;
+					max-width: 15em;
+					max-height: 20em;
+					padding-bottom: 0.6em;
+					background: hsla(0, 95%, 9%, 0.57);
+					border: solid #9E6C6C 2px;
+					}
+		.item-name {margin-bottom: 1em; font-size: 2em; margin-top: 0.5em;}
+		.item-ul-info {font-size: 1em; margin: 20% auto 0;}
+		.item-image {max-width: 80%; padding: 0; min-width: 80%;
+					max-width:  48%;}
+		.item-info {display: block; margin: 0;}
+		.item-price {}
+		.item-ID {display: none;}
+		.item-count {display: none;}
+
+.checked {background: hsla(126, 98%, 16%, 0.67);}
+
+#map-events {display: block; text-align: center; 
+	background-color: hsl(188, 70%, 43%); 
+	width: 70%; margin:2em auto; margin-bottom: 0; 
+	padding-bottom: 2em; overflow: hidden;}
+
+#map {height: 75%; width: 85%; margin: 0 auto; margin-bottom: 2em;}
+
+footer {display: block; width:100%; height: 8em; background: black; color: white; 
+		 left:0; margin-top:-3em; bottom:0; text-align: center;}
+

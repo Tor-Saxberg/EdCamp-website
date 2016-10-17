@@ -1,0 +1,5 @@
+#form-register {margin: 0 auto;}
+#form-register input {display: block;}
+div.another {display: inline-block; min-height: 2.5em; }
+h3#failed {display: none; margin: 0 auto;}
+h3#logged-in {margin: 0 auto;}
